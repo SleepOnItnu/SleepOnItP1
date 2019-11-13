@@ -9,8 +9,8 @@ home - done
 home1 - done
 home2 - done
 calendar_add (with no hard coded events) - done
-calendar_add (with 1 hard coded event) - NOT DONE, very simple, just change the navigation bar to link to the correct html pages
-calendar_add (with both hard coded events) - NOT DONE, very simple, just change the navigation bar to link to the correct html pages
+calendar_add (with 1 hard coded event) - done
+calendar_add (with both hard coded events) - not done, not needed bc user will not add anymore events
 
 CHECK THAT NAVIGATION BAR works for different hard-coded screens: 
 home ~ emptycalendar ~ calendar_add links to these two
