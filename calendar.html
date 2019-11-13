@@ -24,16 +24,33 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
 
+
         var calendar = new FullCalendar.Calendar(calendarEl, {
+          events: [
+      {
+        title: 'Andys Frozen Custurd Purchased',
+        start: '2019-11-02',
+        end: '2019-11-02'
+      }
+    ],
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
           header: { center: 'addEventButton'},
           customButtons: { addEventButton: {
-            text:'add event!'} },
+            text:'add event!',
+            click: function(){
+              window.open("calendar_add.html")
+            }
+          } },
 
           dateClick: function(info) {
               calendar.setOption('contentHeight',20);
-            }
+            },
+          eventClick: function(info) {
+                alert('Event: ' + info.event.title);
+                alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
+                alert('View: ' + info.view.type);
+              }
 
 
 

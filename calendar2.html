@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
-<link rel="stylesheet" type="text/css" href="calendaradd.css"/>
-
+<title>Calendar</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="css/w3.css">
@@ -12,78 +12,63 @@
    rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href='fullcalendar/core/main.css' rel='stylesheet' />
+<link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+
+<script src='fullcalendar/core/main.js'></script>
+<script src='fullcalendar/packages/daygrid/main.js'></script>
+<script src='fullcalendar/interaction/main.js'></script>
+
+<script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          events: [
+      {
+        title: 'Andys Frozen Custurd Purchased',
+        start: '2019-11-02',
+        end: '2019-11-02'
+
+      }, {title: 'Andys Frozen Custurd Purchased',
+      start: '2019-11-12',
+      end: '2019-11-12'}
+
+    ],
+          plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
+          defaultView: 'dayGridMonth',
+          header: { center: 'addEventButton'},
+          customButtons: { addEventButton: {
+            text:'add event!',
+            click: function(){
+              window.open("calendar_add.html")
+            }
+          } },
+
+          dateClick: function(info) {
+              calendar.setOption('contentHeight',20);
+            },
+          eventClick: function(info) {
+                alert('Event: ' + info.event.title);
+                alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
+                alert('View: ' + info.view.type);
+              }
 
 
 
+
+                  });
+        calendar.render();
+
+      });
+</script>
+
+</head>
 
 <body>
-    <form>
-    <div class="purchase-wrapper">
-        <div class="cancel-wrapper">
-          <a href="calendar.html">
-            <i class="material-icons">cancel_presentation</i>
-            <div class="cancel">
-              <h>cancel</h>
-            </div>
-          </a>
-        </div>
-        <div class="purchase-header">
-          <h>NEW PURCHASE</h>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>date</h>
-          </div>
-          <div class="date-option">
-            <input type="date">
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>location</h>
-          </div>
-          <div class="location-option">
-            <select name="location">
-              <option value="location 1">location 1</option>
-              <option value="location 2">location 2</option>
-              <option value="location 3">location 3</option>
-              <option value="location 4">location 4</option>
-            </select>
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>amount spent</h>
-          </div>
-          <div class="purchasespent">
-            $<input type="number" min="0" step=".01">
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>notes (optional)</h>
-          </div>
-          <div class="notes">
-            <input type="text">
-          </div>
-        </div>
-      <!--
-        <div class="savebutton">
-          save event button
-          does some stuff and goes back to and updated my-calendar with a popup that says "purchase added!"
-        </div>
-        -->
-        <div class="save-button">
-          <a href="calendar2.html">done
-
-        </a>
-        </div>
-      </div>
-
-    </form>
-
-
+<div id='calendar'></div>
 
 <!-- Navbar (sit on bottom) -->
 <nav class="navbar fixed-bottom navbar-light bg-light">
@@ -114,14 +99,15 @@ function onClick(element) {
 }
 
 // Change style of navbar on scroll
-//function myFunction() {
-  //  var navbar = document.getElementById("myNavbar");
-//    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-//        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-  //  } else {
-  //      navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-//    }
-//}
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
