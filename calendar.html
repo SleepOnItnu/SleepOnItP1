@@ -27,7 +27,9 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
-          header: { center: 'addEventButton'},},
+          header: { center: 'addEventButton'},
+          customButtons: { addEventButton: {
+            text:'add event!'} },
 
           dateClick: function(info) {
               calendar.setOption('contentHeight',20);
@@ -42,10 +44,6 @@
       });
 </script>
 
-<div class="add-event-wrapper">
-<a href="calendar_add.html" class="button">add new event</a>
-</div>
-   
 </head>
 
 <body>
