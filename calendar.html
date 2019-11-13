@@ -28,8 +28,6 @@
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
           header: { center: 'addEventButton'},
-          customButtons: { addEventButton: {
-            text:'add event!'} },
 
           dateClick: function(info) {
               calendar.setOption('contentHeight',20);
@@ -47,6 +45,10 @@
 </head>
 
 <body>
+<div class="add-event-wrapper">
+<a href="calendar_add.html" class="button">add new event</a>
+</div>
+
 <div id='calendar'></div>
 
 <!-- Navbar (sit on bottom) -->
