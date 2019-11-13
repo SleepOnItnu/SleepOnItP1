@@ -1,28 +1,41 @@
 <html>
 <header>
    <title>Home Screen</title>
-   <link rel="stylesheet" type="text/css" href="ipod.css"/>
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+   <link rel="stylesheet" href="css/w3.css">
+   <link rel="stylesheet" href="css/extras.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
    <link href='fullcalendar/core/main.css' rel='stylesheet' />
    <link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
 
-   <script src='fullcalendar/core/main.js'></script>
-   <script src='fullcalendar/packages/daygrid/main.js'></script>
-   <script src='fullcalendar/interaction/main.js'></script>
 
 </header>
    <body>
-      <div id="screen">
       	<h1>Welcome back!</h1>
-      	<div id="money-spent">
+      	<div class="money-block">
 			<p>Money Spent</p>
+			<p>$0</p>
 		</div>
-		<div id="money-remaining">
+		<div class="money-block">
 			<p>Money Remaining</p>
+			<a href="profile.html">No budget. Create one now.</a>
 		</div>
-      </div>
+		<div class="purchases-block">
+			<div class="recent-purchases-title">
+				<p>Recent Purchases</p>
+			</div>
+			<div class="recent-purchase">
+				No recent purchases. <a href="calendar.html">Add a purchase now</a>
+			</div>
+			<div class="recent-purchase">
+				No recent purchases. <a href="calendar.html">Add a purchase now</a>
+			</div>
+			<div class="recent-purchase">
+				No recent purchases. <a href="calendar.html">Add a purchase now</a>
+			</div>
+		</div>
 	  
 <!-- Navbar (sit on bottom) -->
 <nav class="navbar fixed-bottom navbar-light bg-light">
