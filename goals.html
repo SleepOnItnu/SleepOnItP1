@@ -1,1 +1,39 @@
+<html>
+<header>
+   <title>Goals</title>
+   <link rel="stylesheet" href="css/w3.css">
+   <link rel="stylesheet" href="css/extras.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
 
+</header>
+   <body>
+      	
+	  
+<!-- Navbar (sit on bottom) -->
+<nav class="navbar fixed-bottom navbar-light bg-light">
+   <a class="navbar-brand" href="#">Sleep On It</a>
+<a href="home.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home">home</i></a>
+<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i></a>
+<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i></a>
+<a href="emptycalendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i></a>
+<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i></a>
+</nav>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+</script>
+<script src="ipod.js"></script>
+   </body>
+</html>
