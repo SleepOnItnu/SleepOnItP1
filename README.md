@@ -1,7 +1,3 @@
 # project5
-PROGRESS CHECK
 
-Functional navigation bar at bottom of screen (only in home.html) November 10, 7 PM |
-Made ipod.css and ipod.js (not much in either)                    November 10, 7 PM
-Made nav bar sticky (in calendar) added calendar implementation   November 10, 8 PM
-
+This is following the instructions P5 on canvas - Jason
