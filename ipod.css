@@ -2,29 +2,55 @@
 	Global classes 
 					*/
 body {
-	
-	
-	font-family: Avenir, sans-serif;
 }
 
-
-#screen {
-	height: 530px;
-	width: 400x;
+h1 {
+	text-align: center;
+	font-size: 70px;
 }
 
-#money-spent {
-	height: 180px;
-	width: 180px;
+.money-block {
+	outline-style: solid;
+	outline-color: black;
+	outline-width: thin;
+	margin-top: 2%;
+	margin-left: 5%;
+	text-align: center;
+	height: 100px;
+	width: 42.5%;
 	display: inline-block;
+	font-size: 28px;
 }
 
-#money-remaining {
-	height: 180px;
-	width: 180px;
-	display: inline-block;
+.purchases-block {
+	margin-top: 4%;
+	margin-left: 5%;
+	height: 400px;
+	width: 90%;
+	margin-right: 5%;
 }
 
+.recent-purchases-title {
+	outline-style: solid;
+	outline-color: black;
+	outline-width: thin;
+	line-height: 2;
+	text-align: center;
+	font-size: 60px;
+	height: 120px;
+	width: 100%;
+	background-color: #d3d3d3;
+}
+.recent-purchase {
+	outline-style: solid;
+	outline-color: black;
+	outline-width: thin;
+	line-height: 2;
+	text-align: left;
+	font-size: 40px;
+	height: 80px;
+	width: 100%;
+}
 .navigationBar {
 	height: 60px;
 	width: 300px%;
