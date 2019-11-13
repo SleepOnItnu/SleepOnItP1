@@ -237,12 +237,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .button {
          background-color: lightgray;
          color: black;
-         padding: 15px 15px;
+         padding: 10px 10px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
          border-style: outset;
-         font-size: 20px;
+         font-size: 15px;
          cursor: pointer;
          border-radius: 25px;
          font-style: bold;
