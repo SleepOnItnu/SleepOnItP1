@@ -5,7 +5,6 @@
 <title>Calendar</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/extras.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -14,6 +13,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href='fullcalendar/core/main.css' rel='stylesheet' />
 <link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+<link rel="stylesheet" href="css/w3.css">
 
 <script src='fullcalendar/core/main.js'></script>
 <script src='fullcalendar/packages/daygrid/main.js'></script>
@@ -31,13 +31,6 @@
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
           header: { center: 'addEventButton'},
-          customButtons: { addEventButton: {
-            text:'add event!',
-            click: function(){
-              window.open("calendar_add.html")
-            }
-          } },
-
           dateClick: function(info) {
               calendar.setOption('contentHeight',20);
             },
@@ -59,16 +52,20 @@
 </head>
 
 <body>
+<div class="add-event-wrapper">
+<a href="calendar_add.html" style="text-decoration: none" class="button">add new event</a>
+</div>
+
 <div id='calendar'></div>
 
 <!-- Navbar (sit on bottom) -->
 <nav class="navbar fixed-bottom navbar-light bg-light">
   <a class="navbar-brand" href="#">Sleep On It</a>
-<a href="home.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home">home</i></a>
-<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i></a>
-<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i></a>
-<a href="emptycalendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i></a>
-<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i></a>
+<a href="home.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home">home</i><p>Home</p></a>
+<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i><p>Profile</p></a>
+<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i><p>Places</p></a>
+<a href="emptycalendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i><p>Calendar</p></a>
+<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i><p>Goals</p></a>
 </nav>
 
 
