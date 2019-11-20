@@ -51,21 +51,3 @@ h1 {
 	height: 80px;
 	width: 100%;
 }
-.navigationBar {
-	height: 60px;
-	width: 300px%;
-}
-
-.singleButton {
-	height: 50px;
-	width: 40px;
-	display: inline-block;
-	float: left;
-	margin-left: 15px;
-	margin-right: 15px;
-	text-align: center;
-}
-.singleButton p {
-	 font-size: 9px;
-	 text-align: center;
- }
