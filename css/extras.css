@@ -1,8 +1,32 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Alata", sans-serif;}
 body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+}
+p{
+  font-size: 10px;
+  font-family: "Alata";
+}
+.location-option{
+	margin-top:300px;
+	margin-left:75px;
+	position: fixed;
+}
+.date-option{
+	margin-top:190px;
+	margin-left:75px;
+	position: fixed;
+}
+.amount-option{
+	margin-top:440px;
+	margin-left:75px;
+	position: fixed;
+}
+.save-button{
+	margin-top:700px;
+	margin-left:75px;
+	position: fixed;
 }
 
 /* Create a Parallax Effect */

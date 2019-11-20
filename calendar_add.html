@@ -1,138 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<link rel="stylesheet" type="text/css" href="calendaradd.css"/>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sleeponit</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Addpurchase.css"/>
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/extras.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-   rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-
-
+<script id="applicationScript" type="text/javascript" src="scripts/homeTest.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script id="applicationScript" type="text/javascript" src="Addpurchase.js"></script>
+</head>
 <body>
-    <form>
-    <div class="purchase-wrapper">
-        <div class="cancel-wrapper">
-          <a href="emptycalendar.html">
-            <i class="material-icons">cancel_presentation</i>
-            <div class="cancel">
-              <h>cancel</h>
-            </div>
-          </a>
-        </div>
-        <div class="purchase-header">
-          <h>NEW PURCHASE</h>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>date</h>
-          </div>
-          <div class="date-option">
-            <input type="date">
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>location</h>
-          </div>
-          <div class="location-option">
-            <select name="location">
-              <option value="location 1">location 1</option>
-              <option value="location 2">location 2</option>
-              <option value="location 3">location 3</option>
-              <option value="location 4">Andy's Frozen Custard</option>
-            </select>
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>amount spent</h>
-          </div>
-          <div class="purchasespent">
-            $<input type="number" min="0" step=".01">
-          </div>
-        </div>
-        <div class="field-wrapper">
-          <div class="field-header">
-            <h>notes (optional)</h>
-          </div>
-          <div class="notes">
-            <input type="text">
-          </div>
-        </div>
-      <!--
-        <div class="savebutton">
-          save event button
-          does some stuff and goes back to and updated my-calendar with a popup that says "purchase added!"
-        </div>
-        -->
-        <div class="save-button">
-          <a href="calendar.html">done
+<div id="Add_Purchase" class="Add_Purchase_Class">
+	<div class="Component_3___3 Component_3___3_Class">
+		<svg class="Rectangle_8">
+			<linearGradient id="LinearGradientFill1" spreadMethod="pad" x1="0.074" x2="1.065" y1="0.796" y2="0">
+				<stop offset="0" stop-color="#c0d8db" stop-opacity="1"></stop>
+				<stop offset="0.6279" stop-color="#bae1d3" stop-opacity="1"></stop>
+				<stop offset="0.7438" stop-color="#b9e3d1" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#b4eacb" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect fill="url(#LinearGradientFill1)" class="Rectangle_8_Class" rx="50" ry="50" x="0" y="0" width="328" height="643">
+			</rect>
+		</svg>
+	</div>
+	<div class="Add_Purchase_A2_Text_1_Class">
+		<span>Add Purchase</span>
+	</div>
+	<svg class="Rectangle_9">
+		<div class="date-option">
+			<input type="date">
+		</div>
+		<rect fill="rgba(255,255,255,1)" class="Rectangle_9_Class" rx="23" ry="23" x="0" y="0" width="265" height="49">
+		</rect>
+	</svg>
+	<svg class="Rectangle_13">
+		<div class="location-option">
+		<select name="location">
+			<option value="location 1">location 1</option>
+			<option value="location 2">location 2</option>
+			<option value="location 3">location 3</option>
+			<option value="location 4">Andy's Frozen Custard</option>
+		</select>
+	</div>
+		<rect fill="rgba(255,255,255,1)" class="Rectangle_13_Class" rx="23" ry="23" x="0" y="0" width="258" height="63">
+		</rect>
+	</svg>
+	<svg class="Rectangle_14">
+		<div class="amount-option">
+		  <input type="number" min="0" step=".01">
+		</div>
+		<rect fill="rgba(255,255,255,1)" class="Rectangle_14_Class" rx="23" ry="23" x="0" y="0" width="261" height="59">
+		</rect>
+	</svg>
+	<svg class="Rectangle_10">
+		<rect fill="rgba(255,255,255,1)" class="Rectangle_10_Class" rx="23" ry="23" x="0" y="0" width="265" height="92">
+		</rect>
+	</svg>
+	<svg class="Icon_awesome_arrow_left" viewBox="-0.004 2.647 31.504 30.705">
+		<path fill="rgba(183,213,196,1)" class="Icon_awesome_arrow_left_Class" d="M 18.10546875 31.29609298706055 L 16.54453086853027 32.85702896118164 C 15.88359355926514 33.51796722412109 14.81484317779541 33.51796722412109 14.16093730926514 32.85702896118164 L 0.4921875 19.1953125 C -0.168749988079071 18.53437423706055 -0.168749988079071 17.46562576293945 0.4921875 16.81171798706055 L 14.16093730926514 3.142968654632568 C 14.82187461853027 2.482031106948853 15.890625 2.482031106948853 16.54453086853027 3.142968654632568 L 18.10546875 4.703906059265137 C 18.7734375 5.371874809265137 18.75937461853027 6.461718559265137 18.07734298706055 7.115624904632568 L 9.604687690734863 15.1875 L 29.8125 15.1875 C 30.74765586853027 15.1875 31.5 15.93984413146973 31.5 16.875 L 31.5 19.125 C 31.5 20.06015586853027 30.74765586853027 20.8125 29.8125 20.8125 L 9.604687690734863 20.8125 L 18.07734298706055 28.88437461853027 C 18.76640510559082 29.53828048706055 18.78046798706055 30.62812423706055 18.10546875 31.29609298706055 Z">
+		</path>
+	</svg>
+	<div class="cancel_Class">
+		<span>cancel</span>
+	</div>
+	<div class="Date__Class">
+		<span>Date </span>
+	</div>
+	<div class="Location_Class">
+		<span>Location</span>
+	</div>
+	<div class="Amount_Spent__Class">
+		<span>Amount Spent </span>
+	</div>
+	<div class="Notes_Class">
+		<span>Notes</span>
+	</div>
+	<div class="__Class">
+		<span>$</span>
+	</div>
+	<div class="_optional___Class">
+		<span>(optional)</span><span style="color:rgba(255,255,255,1);"> </span>
+	</div>
+	<div class="save-button">
+		<a href="calendar.html">done
 
-        </a>
-        </div>
-      </div>
-
-    </form>
-
-
-
-<!-- Navbar (sit on bottom) -->
-<nav class="navbar fixed-bottom navbar-light bg-light">
-  <a class="navbar-brand" href="#">Sleep On It</a>
-<a href="home.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home">home</i></a>
-<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i></a>
-<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i></a>
-<a href="emptycalendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i></a>
-<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i></a>
+	</a>
+	</div>
+</div>
+<nav class="navbar fixed-bottom navbar-light bg-light" style="background-color: #e3f2fd;">
+		<a href="home.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home" style="color= #EDEBEB;">home</i><p>home</p></a>
+		<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i><p>profile</p></a>
+		<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i><p>map</p></a>
+		<a href="emptycalendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i><p>calendar</p></a>
+		<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i><p>goals</p></a>
 </nav>
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- Cal implementation -->
-
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-//function myFunction() {
-  //  var navbar = document.getElementById("myNavbar");
-//    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-//        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-  //  } else {
-  //      navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-//    }
-//}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
     } else {
-        x.className = x.className.replace(" w3-show", "");
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
 }
 </script>
-
+<script src="ipod.js"></script>
 </body>
 </html>
