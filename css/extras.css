@@ -1,0 +1,292 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Alata", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+p{
+  font-size: 10px;
+  font-family: "Alata";
+}
+.location-option{
+  margin-top: 70px;
+	margin-left:75px;
+  position: absolute;
+}
+.date-option{
+  margin-top: 20px;
+	margin-left:75px;
+  position: absolute;
+}
+.amount-option{
+  margin-top: 145px;
+	margin-left: 75px;
+  position: absolute;
+}
+
+.notes-textbox{
+  margin-top: 270px;
+  margin-left: 75px;
+  position: absolute;
+}
+
+.save-button{
+	margin-top: 650px;
+	margin-left:65px;
+  position: absolute;
+  width: 70px;
+  font-size: 20px;
+  font-family: "Alata";
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: gray;
+}
+.recent-purchase{
+  font-family: "Alata";
+  font-size: 12px;
+  margin-top:165px;
+  margin-left:75px;
+  position:fixed;
+
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('../images/parallax1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("../images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("../images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+.mediaViewInfo {
+	--web-view-name: Add Purchase;
+	--web-view-id: Add_Purchase;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Add_Purchase;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Add_Purchase_Class {
+	position: absolute;
+	background: #E5E5E5;
+	width: 375px;
+	height: 870px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Add Purchase;
+	--web-view-id: Add_Purchase;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+.Component_3___3_Class {
+	position: absolute;
+	width: 328px;
+	height: 643px;
+	left: 24px;
+	top: 126px;
+	overflow: visible;
+}
+.Rectangle_8_Class {
+	opacity: 0.505;
+}
+.Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 346px;
+	height: 661px;
+	left: 0px;
+	top: 0px;
+}
+.Add_Purchase_A2_Text_1_Class {
+	position: absolute;
+	left: 84px;
+	top: 60px;
+	overflow: visible;
+	width: 262px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Rectangle_9 {
+	position: relative;
+	/* overflow: visible; */
+	width: 265px;
+	height: 49px;
+	left: 73px;
+}
+.Rectangle_13 {
+	position: relative;
+	/* overflow: visible; */
+	width: 258px;
+	height: 63px;
+	left: 73px;
+}
+.Rectangle_14 {
+	position: relative;
+	/* overflow: visible; */
+	width: 261px;
+	height: 59px;
+	left: 77px;
+}
+.Rectangle_10_Class {
+	opacity: 0.415;
+}
+
+.Icon_awesome_arrow_left {
+	overflow: visible;
+	position: absolute;
+	width: 31.504px;
+	height: 30.705px;
+	left: 24.141px;
+	top: 16.502px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.cancel_Class {
+	position: absolute;
+	left: 21px;
+	top: 47px;
+	overflow: visible;
+	width: 42px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(183,213,196,1);
+	letter-spacing: 1px;
+}
+.Date__Class {
+	position: absolute;
+	left: 56px;
+	top: 131px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Location_Class {
+	position: absolute;
+	left: 56px;
+	top: 233px;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Amount_Spent__Class {
+	position: absolute;
+	left: 56px;
+	top: 361px;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Notes_Class {
+	position: absolute;
+	left: 62px;
+	top: 509px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.__Class {
+	position: absolute;
+	left: 70px;
+	top: 419px;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(150,172,159,1);
+	letter-spacing: 0.1px;
+}
+._optional___Class {
+	position: absolute;
+	left: 154px;
+	top: 519px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(175,175,175,1);
+	letter-spacing: 0.1px;
+}
