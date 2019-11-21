@@ -42,12 +42,16 @@ h1 {
 	background-color: #d3d3d3;
 }
 .recent-purchase {
-	outline-style: solid;
-	outline-color: black;
-	outline-width: thin;
-	line-height: 2;
+	left: 91px;
+	top: 510px;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
 	text-align: left;
-	font-size: 40px;
-	height: 80px;
-	width: 100%;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.3px;
 }
