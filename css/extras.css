@@ -58,11 +58,10 @@ p{
 }
 .recent-purchase{
   font-family: "Alata";
-  font-size: 12px;
-  margin-top:165px;
-  margin-left:75px;
-  position:fixed;
-
+  font-size: 17px;
+  margin-top:255px;
+  margin-left:85px;
+  position: absolute;
 }
 
 /* Create a Parallax Effect */
