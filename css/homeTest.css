@@ -192,6 +192,23 @@
 	color: rgba(112,112,112,1);
 	letter-spacing: 0.1px;
 }
+
+.created_budget {
+	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	left: 146px;
+	top: 316px;
+	overflow: visible;
+	width: 172px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
 .recently_purchased__Class {
 	position: absolute;
 	left: 52px;
@@ -244,5 +261,5 @@
 	font-weight: normal;
 	font-size: 17px;
 	color: rgba(112,112,112,1);
-	letter-spacing: 1px;
+	letter-spacing: 0.3px;
 }
