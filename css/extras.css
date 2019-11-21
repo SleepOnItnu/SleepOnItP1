@@ -42,6 +42,20 @@ p{
   border-radius: 1px;
   border-color: gray;
 }
+
+.save-button2{
+	margin-top: 130px;
+	margin-left:25px;
+  position: absolute;
+  width: 70px;
+  font-size: 20px;
+  font-family: "Alata";
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: gray;
+  text-align: center;
+}
 .recent-purchase{
   font-family: "Alata";
   font-size: 12px;
