@@ -4,34 +4,30 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
-p{
-  font-size: 10px;
-  font-family: "Alata";
-}
 .location-option{
-  margin-top: 70px;
-	margin-left:75px;
+  margin-top: 180px;
+  margin-left:75px;
   position: absolute;
 }
 .date-option{
-  margin-top: 20px;
-	margin-left:75px;
+  margin-top: 70px;
+  margin-left:75px;
   position: absolute;
 }
 .amount-option{
-  margin-top: 145px;
+  margin-top: 320px;
 	margin-left: 75px;
   position: absolute;
 }
 
 .notes-textbox{
-  margin-top: 270px;
+  margin-top: 450px;
   margin-left: 75px;
   position: absolute;
 }
 
 .save-button{
-` margin-top: 650px;
+  margin-top: 650px;
   margin-left:65px;
   position: absolute;
   width: 70px;
@@ -44,8 +40,8 @@ p{
 }
 
 .save-button2{
-	margin-top: 130px;
-	margin-left:25px;
+  margin-top: 130px;
+  margin-left:25px;
   position: absolute;
   width: 70px;
   font-size: 20px;
@@ -64,6 +60,8 @@ p{
   position: absolute;
   letter-spacing: 0.3px;
 }
+
+.material-icons.md-36 { font-size: 36px; }
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
