@@ -55,7 +55,6 @@
 	width: 262px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 41px;
@@ -115,7 +114,6 @@
 	width: 42px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -130,7 +128,6 @@
 	width: 75px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
@@ -145,7 +142,6 @@
 	width: 118px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
@@ -160,7 +156,6 @@
 	width: 205px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
@@ -175,7 +170,6 @@
 	width: 80px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
@@ -190,7 +184,6 @@
 	width: 28px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 43px;
@@ -205,11 +198,9 @@
 	width: 98px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Alata;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 19px;
 	color: rgba(175,175,175,1);
 	letter-spacing: 0.1px;
 }
-
