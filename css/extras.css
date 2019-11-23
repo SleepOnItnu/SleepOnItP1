@@ -3,6 +3,7 @@ body, html {
   height: 900px;
   color: #777;
   line-height: 1.8;
+  margin-left:50px;
 }
 
 .save-button{
