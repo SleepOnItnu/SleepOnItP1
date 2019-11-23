@@ -21,6 +21,7 @@
 	height: 812px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
+	overscroll-behavior-y: auto;
 	--web-view-name: HomePage;
 	--web-view-id: HomePage;
 	--web-enable-scale-up: true;
@@ -248,7 +249,7 @@
 .no_recent_purchases__Class {
 	position: absolute;
 	left: 91px;
-	top: 553px;
+	top: 515px;
 	overflow: visible;
 	width: 192px;
 	white-space: nowrap;
