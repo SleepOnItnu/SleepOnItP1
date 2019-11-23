@@ -4,27 +4,6 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
-.location-option{
-  margin-top: 180px;
-  margin-left:75px;
-  position: absolute;
-}
-.date-option{
-  margin-top: 70px;
-  margin-left:75px;
-  position: absolute;
-}
-.amount-option{
-  margin-top: 320px;
-	margin-left: 75px;
-  position: absolute;
-}
-
-.notes-textbox{
-  margin-top: 450px;
-  margin-left: 75px;
-  position: absolute;
-}
 
 .save-button{
   margin-top: 650px;
@@ -62,40 +41,3 @@ body, html {
 }
 
 .material-icons.md-36 { font-size: 36px; }
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('../images/parallax1.jpg');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("../images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("../images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
