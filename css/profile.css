@@ -1,0 +1,339 @@
+.mediaViewInfo {
+	--web-view-name: Profile ;
+	--web-view-id: Profile_;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Profile_;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Profile__Class {
+	position: absolute;
+	background: #E5E5E5;
+	width: 475px;
+	height: 812px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Profile ;
+	--web-view-id: Profile_;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+.Component_3___2_Class {
+	position: absolute;
+	width: 420px;
+	height: 948px;
+	left: 24px;
+	top: 121px;
+	overflow: visible;
+}
+.Rectangle_8_Class {
+	opacity: 0.505;
+}
+.Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 420px;
+	height: 666px;
+	left: 0px;
+	top: 0px;
+}
+.My_Profile___Class {
+	position: absolute;
+	left: 17px;
+	top: 33px;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Jessica_Lei_Class {
+	position: absolute;
+	left: 168px;
+	top: 164px;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.1px;
+}
+.Screen_Shot_2019_11_20_at_1_14 {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 126px;
+	left: 17px;
+	top: 101px;
+}
+.__Class {
+	opacity: 0.01;
+	position: absolute;
+	left: 142px;
+	top: 276px;
+	overflow: visible;
+	width: 5px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+.Component_6___1_Class {
+	position: absolute;
+	width: 405px;
+	height: 75px;
+	left: 55px;
+	top: 247px;
+	overflow: visible;
+}
+.Rectangle_9_Class {
+	opacity: 0.415;
+}
+.Rectangle_9 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 423px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_12 {
+	width: 67px;
+	height: 35px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,20) rotate(-8deg);
+	transform-origin: center;
+}
+.DOB__Class {
+	position: absolute;
+	left: 34px;
+	top: 29px;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+.ID01_01_2000_Class {
+	position: absolute;
+	left: 103px;
+	top: 26px;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+.Component_6___2_Class {
+	position: absolute;
+	width: 405px;
+	height: 75px;
+	left: 55px;
+	top: 346px;
+	overflow: visible;
+}
+.Rectangle_9_A1_Rectangle_6_Class {
+	opacity: 0.415;
+}
+.Rectangle_9_A1_Rectangle_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 423px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_12_A1_Rectangle_7 {
+	width: 67px;
+	height: 35px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,20) rotate(-8deg);
+	transform-origin: center;
+}
+.GENDER__Class {
+	position: absolute;
+	left: 29px;
+	top: 31px;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+.FEMALE__Class {
+	position: absolute;
+	left: 103px;
+	top: 26px;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+.Component_6___3_Class {
+	position: absolute;
+	width: 405px;
+	height: 75px;
+	left: 55px;
+	top: 445px;
+	overflow: visible;
+}
+.Rectangle_9_A1_Rectangle_8_Class {
+	opacity: 0.415;
+}
+.Rectangle_9_A1_Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 423px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_12_A1_Rectangle_9 {
+	width: 67px;
+	height: 35px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,20) rotate(-8deg);
+	transform-origin: center;
+}
+.BUDGET_Class {
+	position: absolute;
+	left: 28px;
+	top: 30px;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+._100_Class {
+	position: absolute;
+	left: 103px;
+	top: 26px;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+.Component_6___4_Class {
+	position: absolute;
+	width: 405px;
+	height: 75px;
+	left: 55px;
+	top: 544px;
+	overflow: visible;
+}
+.Rectangle_9_A1_Rectangle_10_Class {
+	opacity: 0.415;
+}
+.Rectangle_9_A1_Rectangle_10 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 423px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_12_A1_Rectangle_11 {
+	width: 67px;
+	height: 35px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,20) rotate(-8deg);
+	transform-origin: center;
+}
+.TIME__Class {
+	position: absolute;
+	left: 36px;
+	top: 30px;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+}
+.MONTHLY_Class {
+	position: absolute;
+	left: 103px;
+	top: 26px;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Alata;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+.edit-button {
+	position: absolute;
+	left: 360px;
+	top: 135px;
