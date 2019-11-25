@@ -12,7 +12,6 @@ body, html {
   position: absolute;
   width: 70px;
   font-size: 20px;
-  font-family: "Alata";
   background-color: lightgray;
   border-style: solid;
   border-radius: 1px;
@@ -25,7 +24,6 @@ body, html {
   position: absolute;
   width: 70px;
   font-size: 20px;
-  font-family: "Alata";
   background-color: lightgray;
   border-style: solid;
   border-radius: 1px;
@@ -33,12 +31,18 @@ body, html {
   text-align: center;
 }
 .recent-purchase{
-  font-family: "Alata";
-  font-size: 17px;
-  margin-top:255px;
-  margin-left:91px;
   position: absolute;
-  letter-spacing: 0.3px;
+	left: 70px;
+	top: 600px;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
 }
 
 .material-icons.md-36 { font-size: 36px; }
