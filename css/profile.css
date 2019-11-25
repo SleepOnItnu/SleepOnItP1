@@ -61,49 +61,21 @@
 	color: rgba(112,112,112,1);
 	letter-spacing: 0.1px;
 }
-.Jessica_Lei_Class {
+.Component_6___0_Class {
 	position: absolute;
-	left: 168px;
-	top: 164px;
+	width: 405px;
+	height: 75px;
+	left: 55px;
+	top: 214px;
 	overflow: visible;
-	width: 146px;
-	white-space: nowrap;
-	text-align: left;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	color: rgba(112,112,112,1);
-	letter-spacing: 0.1px;
 }
-.Screen_Shot_2019_11_20_at_1_14 {
-	position: absolute;
-	overflow: visible;
-	width: 134px;
-	height: 126px;
-	left: 17px;
-	top: 101px;
-}
-.__Class {
-	opacity: 0.01;
-	position: absolute;
-	left: 142px;
-	top: 276px;
-	overflow: visible;
-	width: 5px;
-	white-space: nowrap;
-	text-align: left;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 1px;
-}
+
 .Component_6___1_Class {
 	position: absolute;
 	width: 405px;
 	height: 75px;
 	left: 55px;
-	top: 247px;
+	top: 313px;
 	overflow: visible;
 }
 .Rectangle_9_Class {
@@ -159,7 +131,7 @@
 	width: 405px;
 	height: 75px;
 	left: 55px;
-	top: 346px;
+	top: 412px;
 	overflow: visible;
 }
 .Rectangle_9_A1_Rectangle_6_Class {
@@ -215,7 +187,7 @@
 	width: 405px;
 	height: 75px;
 	left: 55px;
-	top: 445px;
+	top: 511px;
 	overflow: visible;
 }
 .Rectangle_9_A1_Rectangle_8_Class {
@@ -271,7 +243,7 @@
 	width: 405px;
 	height: 75px;
 	left: 55px;
-	top: 544px;
+	top: 610px;
 	overflow: visible;
 }
 .Rectangle_9_A1_Rectangle_10_Class {
@@ -324,5 +296,5 @@
 }
 .edit-button {
 	position: absolute;
-	left: 360px;
-	top: 135px;
+	left: 330px;
+	top: 140px;
