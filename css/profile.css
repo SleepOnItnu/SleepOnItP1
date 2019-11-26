@@ -254,7 +254,7 @@
 	position: absolute;
 	overflow: visible;
 	width: 423px;
-	height: 93px;
+	height: 140px;
 	left: 0px;
 	top: 0px;
 }
@@ -268,7 +268,7 @@
 }
 .TIME__Class {
 	position: absolute;
-	left: 36px;
+	left: 26px;
 	top: 30px;
 	overflow: visible;
 	width: 33px;
@@ -298,3 +298,10 @@
 	position: absolute;
 	left: 330px;
 	top: 140px;
+}
+
+.back-button {
+	position: absolute;
+	left: 55px;
+	top: 140px;
+
