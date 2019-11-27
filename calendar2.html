@@ -29,11 +29,18 @@
       {
         title: 'Andys Frozen Custard Purchased',
         start: '2019-11-02',
-        end: '2019-11-02'
+        end: '2019-11-02',
+		extendedProps: {
+			description: '$10'
+		}
 
       }, {title: 'Andys Frozen Custard Purchased',
       start: '2019-11-12',
-      end: '2019-11-12'}
+      end: '2019-11-12',
+	  extendedProps: {
+        description: '$15'
+      }
+	  }
 
     ],
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
@@ -44,12 +51,8 @@
             },
           eventClick: function(info) {
                 alert('Event: ' + info.event.title);
-                alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
-                alert('View: ' + info.view.type);
+                alert('Price: ' + info.event.extendedProps.description);
               }
-
-
-
 
                   });
         calendar.render();
