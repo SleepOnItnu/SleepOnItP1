@@ -1,52 +1,15 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Alata", sans-serif;}
 body, html {
-  height: 900px;
   color: #777;
   line-height: 1.8;
-  margin-left:50px;
+  margin-left: 50px;
 }
 
-.save-button{
-  margin-top: 650px;
-  margin-left:65px;
-  position: absolute;
-  width: 70px;
-  font-size: 20px;
-  background-color: lightgray;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: gray;
+.navbar.fixed-bottom.navbar-light.bg-light {
+	margin: -5px;
+	padding: 0;
 }
 
-.save-button2{
-  margin-top: 130px;
-  margin-left:25px;
-  position: absolute;
-  width: 70px;
-  font-size: 20px;
-  background-color: lightgray;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: gray;
-  text-align: center;
-}
-.recent-purchase{
-  position: absolute;
-	left: 70px;
-	top: 600px;
-	overflow: visible;
-	width: 192px;
-	white-space: nowrap;
-	text-align: left;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	color: rgba(112,112,112,1);
-	letter-spacing: 1px;
-}
-.calendar{
-  width:300px;
-}
 
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 {font-size: 48px; }

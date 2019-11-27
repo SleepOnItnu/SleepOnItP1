@@ -9,10 +9,14 @@
 	--web-view-ids: Profile_;
 }
 * {
-	margin: -5px;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
+}
+
+body {
+	height: 880px;
 }
 .Profile__Class {
 	position: absolute;
@@ -304,4 +308,17 @@
 	position: absolute;
 	left: 55px;
 	top: 140px;
+}
 
+.save-button2{
+  margin-top: 130px;
+  margin-left:25px;
+  position: absolute;
+  width: 70px;
+  font-size: 20px;
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: gray;
+  text-align: center;
+}
