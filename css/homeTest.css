@@ -280,3 +280,17 @@ body {
 	color: rgba(112,112,112,1);
 	letter-spacing: 1px;
 }
+
+.see-progress{
+	cursor: pointer;
+	position: absolute;
+	width: 90px;
+	top: 195px;
+	left: 55px;
+	font-size: 12px;
+	color: gray;
+	background-color: #adccb9;
+	border-style: solid;
+	border-radius: 1px;
+	border-color: white;
+}
