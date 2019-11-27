@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 .fc {
   direction: ltr;
   text-align: left;
@@ -9,8 +11,13 @@
 }
 
 body .fc {
+  margin-left:10px;
+  margin-right:80px;
+  margin-bottom: 20px;
+
   /* extra precedence to overcome jqui */
-  font-size: 1.3em;
+  font-size: 1em;
+  text-overflow: ellipsis;
 }
 
 /* Colors
@@ -258,15 +265,17 @@ temporary rendered events).
   display: block;
   /* make the <a> tag block */
   font-size: 0.85em;
-  line-height: 1.4;
+  line-height: 5;
   border-radius: 3px;
-  border: 1px solid #3788d8;
+  border: 2px solid #b1eac6;
 }
 
 .fc-event,
 .fc-event-dot {
-  background-color: #3788d8;
-  /* default BACKGROUND color */
+  background-color:#EDEBEB;
+  opacity: 50%;
+  /* default BACKGROUND
+  color */
 }
 
 .fc-event,

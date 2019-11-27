@@ -44,6 +44,9 @@ body, html {
 	color: rgba(112,112,112,1);
 	letter-spacing: 1px;
 }
+.calendar{
+  width:300px;
+}
 
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 {font-size: 48px; }

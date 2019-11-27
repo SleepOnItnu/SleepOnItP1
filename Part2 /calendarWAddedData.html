@@ -10,13 +10,15 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
    rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href='../fullcalendar/core/main.css' rel='stylesheet' />
 <link href='../fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
 <link rel="stylesheet" href="css/w3.css">
 <script src='../fullcalendar/core/main.js'></script>
 <script src='../fullcalendar/packages/daygrid/main.js'></script>
 <script src='../fullcalendar/interaction/main.js'></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 
 <script>
 
@@ -25,6 +27,8 @@
 
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
+          height:500,
+          width:200,
           events: [
       {
         title: 'Andys Frozen Custard Purchased',
@@ -60,7 +64,6 @@
     ],
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
-          header: { center: 'addEventButton'},
 
           dateClick: function(info) {
               calendar.setOption('contentHeight',20);
@@ -84,14 +87,14 @@
 
 <body>
 <div class="add-event-wrapper">
-<a href="../calendar_add.html" style="text-decoration: none" class="button">add new event</a>
+<a href="../calendar_add.html"class="button" id="addEventButton">add new event</a>
 </div>
 
 <div id='calendar'></div>
 
 <!-- Navbar (sit on bottom) -->
 <nav class="navbar fixed-bottom navbar-light bg-light">
-	<a href="home2withbudgetwdatavis.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home" style="color= #EDEBEB;">home</i><p>Home</p></a>
+	<a href="home2withbudgetwdatavis.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home">home</i><p>Home</p></a>
 	<a href="../emptyprofilenew.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i><p>Profile</p></a>
 	<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i><p>Places</p></a>
 	<a href="calendarWAddedData.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i><p>Calendar</p></a>
