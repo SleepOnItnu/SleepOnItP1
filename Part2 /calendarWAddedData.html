@@ -17,7 +17,8 @@
 <script src='../fullcalendar/packages/daygrid/main.js'></script>
 <script src='../fullcalendar/interaction/main.js'></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link rel="stylesheet" href="css/Addpurchase.css">
+<link rel="stylesheet" href="css/calendaradd.css">
 
 
 <script>
@@ -27,8 +28,8 @@
 
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          height:500,
-          width:200,
+          aspectRatio:0.9,
+
           events: [
       {
         title: 'Andys Frozen Custard Purchased',
@@ -65,9 +66,6 @@
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
           defaultView: 'dayGridMonth',
 
-          dateClick: function(info) {
-              calendar.setOption('contentHeight',20);
-            },
           eventClick: function(info) {
                 alert('Event: ' + info.event.title);
                 alert('Price: ' + info.event.extendedProps.description);
@@ -87,7 +85,7 @@
 
 <body>
 <div class="add-event-wrapper">
-<a href="../calendar_add.html"class="button" id="addEventButton">add new event</a>
+<a href="../calendar_add.html"class="button">add new event</a>
 </div>
 
 <div id='calendar'></div>
