@@ -10,6 +10,8 @@ body, html {
 	padding: 0;
 }
 
-
+.fc-title {
+	font-size: 10px;
+}
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 {font-size: 48px; }
