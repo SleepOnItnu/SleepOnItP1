@@ -265,3 +265,18 @@ body {
 	color: rgba(112,112,112,1);
 	letter-spacing: 1px;
 }
+
+.recent-purchase-1{
+  position: absolute;
+	left: 70px;
+	top: 680px;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
