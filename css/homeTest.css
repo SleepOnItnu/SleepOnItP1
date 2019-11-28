@@ -14,6 +14,10 @@
 	box-sizing: border-box;
 	border: none;
 }
+
+body {
+	height: 900px;
+}
 .HomePage_Class {
 	position: absolute;
 	background: #E5E5E5;
@@ -161,21 +165,7 @@
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.1px;
 }
-._0_A0_Text_5_Class {
-	filter: blur(5px);
-	position: absolute;
-	left: 219px;
-	top: 55px;
-	overflow: visible;
-	width: 49px;
-	white-space: nowrap;
-	text-align: left;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 43px;
-	color: rgba(170,202,206,1);
-	letter-spacing: 0.1px;
-}
+
 ._____create_a_budget__Class {
 	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
@@ -195,7 +185,7 @@
 .created_budget {
 	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
-	left: 146px;
+	left: 160px;
 	top: 316px;
 	overflow: visible;
 	width: 172px;
@@ -259,4 +249,48 @@
 	font-size: 15px;
 	color: rgba(112,112,112,1);
 	letter-spacing: 1px;
+}
+
+.recent-purchase{
+  position: absolute;
+	left: 70px;
+	top: 600px;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+
+.recent-purchase-1{
+  position: absolute;
+	left: 70px;
+	top: 680px;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 1px;
+}
+
+.see-progress{
+	cursor: pointer;
+	position: absolute;
+	width: 90px;
+	top: 195px;
+	left: 55px;
+	font-size: 12px;
+	color: gray;
+	background-color: #adccb9;
+	border-style: solid;
+	border-radius: 1px;
+	border-color: white;
 }

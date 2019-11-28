@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/extras.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-   rel="stylesheet">
+  rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href='fullcalendar/core/main.css' rel='stylesheet' />
@@ -28,7 +28,10 @@
       {
         title: 'Andys Frozen Custard Purchased',
         start: '2019-11-02',
-        end: '2019-11-02'
+        end: '2019-11-02',
+		extendedProps: {
+			description: '$10'
+		}
       }
     ],
           plugins: [ 'dayGrid', 'timeGrid', 'interaction' ],
@@ -40,12 +43,8 @@
             },
           eventClick: function(info) {
                 alert('Event: ' + info.event.title);
-
+				alert('Price: ' + info.event.extendedProps.description);
               }
-
-
-
-
 
                   });
         calendar.render();
@@ -65,7 +64,7 @@
 <!-- Navbar (sit on bottom) -->
 <nav class="navbar fixed-bottom navbar-light bg-light">
     <a href="home1.html" class="w3-bar-item w3-button"><i class="material-icons" alt="go_home" style="color= #EDEBEB;">home</i><p>Home</p></a>
-	<a href="emptyprofilenew.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i><p>Profile</p></a>
+	<a href="profile.html" class="w3-bar-item w3-button"><i class="material-icons" alt="person">person</i><p>Profile</p></a>
 	<a href="myplaces.html" class="w3-bar-item w3-button "><i class="material-icons" alt="map">map</i><p>Places</p></a>
 	<a href="calendar.html" class="w3-bar-item w3-button "><i class="material-icons" alt="calendar">calendar_today</i><p>Calendar</p></a>
 	<a href="goals.html" class="w3-bar-item w3-button"><i class="material-icons" alt="goals">check_box</i><p>Goals</p></a>

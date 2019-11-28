@@ -1,4 +1,5 @@
 # project8
+Notes: This is meant to be a mobile app. When opening the html pages, please use Chrome and then make the Chrome screen at minimum width so the page looks thin like a phone screen.
 
 Instructions for testing prototype
 

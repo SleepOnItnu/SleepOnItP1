@@ -245,7 +245,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
          cursor: pointer;
          border-radius: 25px;
          font-style: bold;
-         margin-top: 5px;
-		 margin-bottom: -20px;
+		 margin-top: 5px;
+		 margin-bottom: 5px;
 }
 .button:hover { color: white; }
