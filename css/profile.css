@@ -311,16 +311,17 @@ body {
 }
 
 .save-button2{
-  margin-top: 130px;
-  margin-left:25px;
-  position: absolute;
-  width: 70px;
-  font-size: 20px;
-  background-color: lightgray;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: gray;
-  text-align: center;
+ 	margin-top: 135px;
+  	margin-left:25px;
+  	position: absolute;
+	width: 60px;
+	font-size: 14px;
+	color: gray;
+	background-color: #d8edeb;
+	border-style: solid;
+	border-radius: 1px;
+	border-color: gray;
+	text-align: center;
 }
 
 .profile-edit-button {
