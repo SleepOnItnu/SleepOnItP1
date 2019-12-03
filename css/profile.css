@@ -308,6 +308,8 @@ body {
 	position: absolute;
 	left: 55px;
 	top: 140px;
+	background-color: #d8edeb;
+	color: gray;
 }
 
 .save-button2{
