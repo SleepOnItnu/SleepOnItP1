@@ -299,12 +299,17 @@
 .share-screenshot {
 	position: absolute;
 	overflow: visible;
-	width: 72px;
-	height: 36px;
-	left: 258px;
+	width: 65px;
+	font-size: 14px;
+	left: 250px;
 	top: 684px;
-	cursor: pointer;
+	color: gray;
+	background-color: #b6e0c7;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
 }
+
 .share_Class {
 	position: absolute;
 	left: 275px;
