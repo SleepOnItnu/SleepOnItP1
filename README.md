@@ -1,19 +1,6 @@
-# project8
-Notes: This is meant to be a mobile app. When opening the html pages, please use Chrome and then make the Chrome screen at minimum width so the page looks thin like a phone screen.
-
-Instructions for testing prototype
-
-Task 1: Set up profile (and budget):
-Start at home.html.
-Fill out your profile with the following information: Your name is Jessica Lei and your date or birth is 01/01/2000. You are female, and have a $100 budget every month.
-Go back to home and see that your budget is properly displayed. (You should be on homewithbudget.html).
-
-Task 2: Add purchase(s):
-Start at homewithbudget.html.
-Add a purchase you made to the calendar. On November 2nd, 2019, you spent $10 at Andy's Frozen Custard.
-Go back to home and see that the purchase is displayed on the recent purchases. 
-Optional: Go back to calendar and add another purchase. On November 12th, 2019, you spent $15 at Andy's Frozen Custard. After adding the event, go back and see that home is updated.
-
-Task 3: View progress and share:
-Go into the part 2 folder and start at home.
-Look at your progress and try to share it.
+# project9
+comments from TA:
+1) go through any unaddressed comments from me and user observations from prototype 1 and 2
+2) make your buttons more affordable and consistent. Sometimes the buttons blue hyperlinked texts, sometimes it's a linked div with grey text, sometimes its a blue button, etc. Pick one button-y style and apply it across your webapp.
+3) although Places and Goals were never completed, make sure their navbar is consistent with the navbar from the other pages. (It currently shows the navbar from the first prototype)
+4) address comments in the Component section of the rubric
