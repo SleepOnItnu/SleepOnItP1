@@ -53,8 +53,8 @@ body {
 }
 .My_Profile___Class {
 	position: absolute;
-	left: 17px;
-	top: 33px;
+	left: 45px;
+	top: 55px;
 	overflow: visible;
 	width: 207px;
 	white-space: nowrap;
@@ -328,7 +328,7 @@ body {
 
 .profile-edit-button {
  	margin-top: 160px;
-  	margin-left:320px;
+  	margin-left:300px;
   	position: absolute;
   	width: 60px;
   	font-size: 16px;
